@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HomePage</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .nav{
+                display: flex;
+            }
+            .logo{
+                height: 75px;
+                border-radius: 50%;
+            }
+            .logo-box{
+                margin-right: 30%;
+            }
+            .nav-a{
+                margin-left: 5%;
+                display: flex;
+                width: 40%;
+                justify-content: space-between;
+            }
+            .nav-a a{
+                text-decoration: none;
+                color: powderblue;
+                font-size: 30px;
+            }
+            .nav-a a:hover{
+            color: orange;
+            border-bottom: 2px solid orange;
+            }
+            .main{
+                display: flex;
+                padding: 30px;
+                margin: 40px;
+                margin-top: 5%;
+                
+
+            }
+            .main-l{
+                margin-left: 20%;
+                margin-right: 20%;
+                padding: 20px;
+                width: 25%;
+                box-shadow: 0px 8px 5px white;
+                height: 200px;
+                color:bisque;
+                font-size: 20px;
+            }
+            .name{
+                font-size: 50px;
+                color: powderblue;
+            }
+            .main-r{
+                width: 30%;
+                color: powderblue;
+            }
+            .detail{
+                width: 90%;
+                padding: 10px;
+                box-shadow: 0px 7px 5px white;
+                margin-bottom: 20%;
+                font-size: 40px;
+            }
+            .footer{
+                background-color: blue;
+                height: 40px;
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+            }
+            .socials{
+                color: white;
+                font-size: 26px;
+                padding: 5px;
+                margin-left: 10%;
+                width: 40%;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body style="background: url(https://wallpapercave.com/dwp1x/wp1809658.jpg) no-repeat; background-size: cover;">
+        <nav class="nav">
+            <div class="logo-box">
+                <img class="logo" src="http://d3ieicw58ybon5.cloudfront.net/ex/610.191/u/c2ea270de7764fb1a92f60080d27b0da.jpg" alt="logo">
+            </div>
+            <div class="nav-a"> 
+                <a href="">
+                    <i class="fa-solid fa-tv"></i>
+                    Anime
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-book-open"></i>
+                    Manga
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-list"></i>
+                    Recommendations
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-circle-question"></i>
+                    Help
+                </a>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="main-l">
+                <h4 class="name">MY ANIME LIST</h4>
+                <p>
+                    your one stop destination for
+                    any manga or anime....  
+             </p>
+
+            </div>
+            <div class="main-r">
+                <div class="detail">
+                    <details>
+                        <summary>Anime</summary>
+                        <ul>Naruto</ul>
+                        <ul>Bleach</ul>
+                        <ul>OnePiece</ul>
+                        <ul>DeathNote</ul>
+                        <ul>SwordArtOnline</ul>
+                        <ul>AttackOnTitan</ul>
+                    </details>
+                </div>
+                <div class="detail">
+                    <details>
+                        <summary>Movies</summary>
+                        <ul>YourName</ul>
+                        <ul>WeatheringWithYou</ul>
+                        <ul>AWiskerAway</ul>
+                        <ul>IWantToEatYourPancreas</ul>
+                        <ul>GardenOfWords</ul>
+                    </details>
+                </div>
+                <div class="detail">
+                    <details>
+                        <summary>Manga</summary>
+                        <ul>TokyoGhoul</ul>
+                        <ul>JujutsuKaisen</ul>
+                        <ul>GrandBlue</ul>
+                        <ul>LoveIsWar</ul>
+                    </details>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="socials">
+                <i class="fa-brands fa-linkedin"></i>
+                MyAnimeList
+                <i class="fa-brands fa-instagram"></i>
+                @MyAnimeList
+                <i class="fa-brands fa-youtube"></i>
+                MyAnimeList
+            </div>
+        </footer>
+
+    </body>    
+</html>
